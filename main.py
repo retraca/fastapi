@@ -5,8 +5,6 @@ import pandas as pd
 
 app = FastAPI()
 
-
-    
 data = pd.read_csv('ETFs.csv')
 
 engine = create_engine('sqlite:///:memory:')
