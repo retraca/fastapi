@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
-from fastapi import Depends, FastAPI
-from pydantic import BaseModel
+from fastapi import FastAPI
+""" from pydantic import BaseModel """
 import pandas as pd
 
 app = FastAPI()
